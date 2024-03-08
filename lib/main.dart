@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:spotify_clone/login_page.dart';
+import 'package:spotify_clone/first_page.dart';
 
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoginPage(),
+      home: const FirstPage(),
     );
   }
 }
